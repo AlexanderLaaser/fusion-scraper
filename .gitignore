@@ -1,0 +1,6 @@
+.env
+seen_threads.json
+__pycache__/
+*.pyc
+.venv/
+venv/
