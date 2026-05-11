@@ -196,8 +196,12 @@ def scrape_page(session: requests.Session, page: int, sid: str = "") -> list[dic
     return threads
 
 
+IGNORE_KEYWORDS = [kw.strip().lower() for kw in os.getenv("IGNORE_KEYWORDS", "at.tension").split(",")]
+
 def matches(title: str) -> bool:
     title_lower = title.lower()
+    if any(kw in title_lower for kw in IGNORE_KEYWORDS):
+        return False
     return any(kw in title_lower for kw in KEYWORDS)
 
 
