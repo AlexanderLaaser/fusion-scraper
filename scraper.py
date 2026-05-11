@@ -5,11 +5,13 @@ Monitors the ticket/marketplace forum for posts matching keywords and sends Tele
 Run via cron, e.g. every 30 min: */30 * * * * /path/to/venv/bin/python /path/to/scraper.py
 """
 
+import csv
 import json
 import logging
 import os
 import re
 import time
+from datetime import datetime
 from pathlib import Path
 
 import requests
@@ -29,6 +31,7 @@ TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
 
 STATE_FILE = Path(__file__).parent / "seen_threads.json"
+EXEC_LOG   = Path(__file__).parent / "execution.log"
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
@@ -88,27 +91,39 @@ def matches(title: str) -> bool:
     return any(kw in title_lower for kw in KEYWORDS)
 
 
-def notify(title: str, author: str, url: str) -> None:
+def write_exec_log(matches: int) -> None:
+    header = not EXEC_LOG.exists()
+    with EXEC_LOG.open("a", newline="") as f:
+        w = csv.writer(f)
+        if header:
+            w.writerow(["timestamp", "matches"])
+        w.writerow([datetime.now().strftime("%Y-%m-%d %H:%M:%S"), matches])
+
+
+def send_telegram(text: str) -> None:
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
         log.warning("Telegram not configured — printing to stdout instead")
-        print(f"MATCH: {title} ({url})")
+        print(text)
         return
-
-    text = (
-        f"🎪 *Fusion Forum — neuer Treffer*\n\n"
-        f"*{title}*\n"
-        f"von {author or 'unbekannt'}\n\n"
-        f"[Zum Post]({url})"
-    )
     r = requests.post(
         f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
         json={"chat_id": TELEGRAM_CHAT_ID, "text": text, "parse_mode": "Markdown"},
         timeout=10,
     )
     if r.ok:
-        log.info("Telegram sent: %.60s", title)
+        log.info("Telegram sent: %.60s", text)
     else:
         log.error("Telegram error %s: %s", r.status_code, r.text[:200])
+
+
+def notify(title: str, author: str, url: str) -> None:
+    text = (
+        f"🎪 *Fusion Forum — neuer Treffer*\n\n"
+        f"*{title}*\n"
+        f"von {author or 'unbekannt'}\n\n"
+        f"[Zum Post]({url})"
+    )
+    send_telegram(text)
 
 
 def main() -> None:
@@ -142,6 +157,11 @@ def main() -> None:
 
     save_seen(seen)
     log.info("Done — %d new match(es)", new_count)
+
+    write_exec_log(new_count)
+
+    if new_count == 0:
+        send_telegram("ℹ️ Kein neuer Treffer in diesem Durchlauf.")
 
 
 if __name__ == "__main__":
