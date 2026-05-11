@@ -26,7 +26,7 @@ FORUM_BASE = "https://forum.fusion-festival.de"
 FORUM_ID = 82
 PAGE_SIZE = 25
 
-KEYWORDS = [kw.strip().lower() for kw in os.getenv("KEYWORDS", "biete,verkaufe,abzugeben,tausche").split(",")]
+KEYWORDS = [kw for kw in (kw.strip().lower() for kw in os.getenv("KEYWORDS", "biete,verkaufe,abzugeben,tausche").split(",")) if kw]
 MAX_PAGES = int(os.getenv("MAX_PAGES", "3"))
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
@@ -196,7 +196,7 @@ def scrape_page(session: requests.Session, page: int, sid: str = "") -> list[dic
     return threads
 
 
-IGNORE_KEYWORDS = [kw.strip().lower() for kw in os.getenv("IGNORE_KEYWORDS", "at.tension").split(",")]
+IGNORE_KEYWORDS = [kw for kw in (kw.strip().lower() for kw in os.getenv("IGNORE_KEYWORDS", "at.tension").split(",")) if kw]
 
 def matches(title: str) -> bool:
     title_lower = title.lower()

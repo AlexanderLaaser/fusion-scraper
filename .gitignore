@@ -1,6 +1,7 @@
 .env
 seen_threads.json
 replied_threads.json
+logs/
 __pycache__/
 *.pyc
 .venv/
