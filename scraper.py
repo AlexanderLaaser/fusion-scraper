@@ -19,14 +19,13 @@ import requests
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 
-ROOT = Path(__file__).parent.parent
-load_dotenv(dotenv_path=ROOT / ".env")
+load_dotenv(dotenv_path=Path(__file__).parent / ".env")
 
 FORUM_BASE = "https://forum.fusion-festival.de"
 FORUM_ID = 82
 PAGE_SIZE = 25
 
-KEYWORDS = [kw for kw in (kw.strip().lower() for kw in os.getenv("KEYWORDS", "biete,verkaufe,abzugeben,tausche").split(",")) if kw]
+KEYWORDS = [kw.strip().lower() for kw in os.getenv("KEYWORDS", "biete,verkaufe,abzugeben,tausche").split(",")]
 MAX_PAGES = int(os.getenv("MAX_PAGES", "3"))
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
@@ -34,12 +33,12 @@ TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
 
 FORUM_USER = os.getenv("FORUM_USERNAME", "")
 FORUM_PASS = os.getenv("FORUM_PASSWORD", "")
-_content_file = ROOT / "content.md"
+_content_file = Path(__file__).parent / "content.md"
 REPLY_TEXT = _content_file.read_text(encoding="utf-8").strip() if _content_file.exists() else os.getenv("REPLY_TEXT", "")
 
-STATE_FILE   = ROOT / "threads" / "seen_threads.json"
-REPLIED_FILE = ROOT / "threads" / "replied_threads.json"
-EXEC_LOG     = ROOT / "logs" / "execution.log"
+STATE_FILE   = Path(__file__).parent / "seen_threads.json"
+REPLIED_FILE = Path(__file__).parent / "replied_threads.json"
+EXEC_LOG     = Path(__file__).parent / "execution.log"
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
@@ -59,7 +58,6 @@ def load_replied() -> dict[str, dict]:
     if REPLIED_FILE.exists():
         data = json.loads(REPLIED_FILE.read_text())
         if isinstance(data, list):
-            # Migrate legacy list format — mark all as replied with no detail
             return {
                 tid: {
                     "title": None,
@@ -211,12 +209,8 @@ def scrape_page(session: requests.Session, page: int, sid: str = "") -> list[dic
     return threads
 
 
-IGNORE_KEYWORDS = [kw for kw in (kw.strip().lower() for kw in os.getenv("IGNORE_KEYWORDS", "at.tension").split(",")) if kw]
-
 def matches(title: str) -> bool:
     title_lower = title.lower()
-    if any(kw in title_lower for kw in IGNORE_KEYWORDS):
-        return False
     return any(kw in title_lower for kw in KEYWORDS)
 
 
