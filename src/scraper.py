@@ -3,7 +3,7 @@
 Fusion Festival Forum Scraper
 Monitors the ticket/marketplace forum for posts matching keywords and sends Telegram alerts.
 Optionally logs in and posts a reply on matching threads.
-Run via cron, e.g. every 5 min: */5 * * * * /path/to/venv/bin/python /path/to/scraper.py
+Run via cron, e.g. every 15 min: */15 * * * * /path/to/venv/bin/python /path/to/scraper.py
 """
 
 import csv
