@@ -13,6 +13,7 @@ import os
 import re
 import time
 from datetime import datetime
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 import requests
@@ -226,7 +227,7 @@ def write_exec_log(match_count: int) -> None:
         w = csv.writer(f)
         if header:
             w.writerow(["timestamp", "matches"])
-        w.writerow([datetime.now().strftime("%Y-%m-%d %H:%M:%S"), match_count])
+        w.writerow([datetime.now(ZoneInfo("Europe/Berlin")).strftime("%Y-%m-%d %H:%M:%S"), match_count])
 
 
 def send_telegram(text: str) -> None:
@@ -298,7 +299,7 @@ def main() -> None:
                 "title":            t["title"],
                 "url":              t["url"],
                 "author":           t["author"] or "unknown",
-                "timestamp":        datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                "timestamp":        datetime.now(ZoneInfo("Europe/Berlin")).strftime("%Y-%m-%d %H:%M:%S"),
                 "matched_keywords": matched_kws,
                 "replied":          False,
                 "reason":           "",
