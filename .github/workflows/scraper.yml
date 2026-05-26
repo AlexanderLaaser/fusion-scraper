@@ -5,6 +5,10 @@ on:
     - cron: "*/5 * * * *"
   workflow_dispatch:
 
+concurrency:
+  group: scraper
+  cancel-in-progress: false
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -49,4 +53,4 @@ jobs:
           git add threads/ logs/
           git diff --cached --quiet && exit 0
           git commit -m "chore: update scraper state [skip ci]"
-          git push
+          git pull --rebase && git push
