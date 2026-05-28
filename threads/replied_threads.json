@@ -137,5 +137,16 @@
     ],
     "replied": false,
     "reason": "post_reply failed — check logs for details"
+  },
+  "80800": {
+    "title": "Ticket für ehemaligen Ticketgeber ;)) CGXLH",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80800",
+    "author": "CarlinKöln",
+    "timestamp": "2026-05-28 09:41:25",
+    "matched_keywords": [
+      "gebe"
+    ],
+    "replied": true,
+    "reason": "replied — matched: gebe"
   }
 }
