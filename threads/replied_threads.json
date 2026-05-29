@@ -159,5 +159,16 @@
     ],
     "replied": true,
     "reason": "replied — matched: tausche"
+  },
+  "80906": {
+    "title": "Biete Mitfahrgelegenheit gegen Ticket!",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80906",
+    "author": "Maddielene",
+    "timestamp": "2026-05-29 12:48:32",
+    "matched_keywords": [
+      "biete"
+    ],
+    "replied": true,
+    "reason": "replied — matched: biete"
   }
 }
