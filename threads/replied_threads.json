@@ -170,5 +170,16 @@
     ],
     "replied": true,
     "reason": "replied — matched: biete"
+  },
+  "80923": {
+    "title": "Tausche Autoticket D gegen Festivalticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80923",
+    "author": "Narolyka",
+    "timestamp": "2026-05-29 19:06:09",
+    "matched_keywords": [
+      "tausche"
+    ],
+    "replied": true,
+    "reason": "replied — matched: tausche"
   }
 }
