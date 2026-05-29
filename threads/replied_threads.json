@@ -148,5 +148,16 @@
     ],
     "replied": true,
     "reason": "replied — matched: gebe"
+  },
+  "80902": {
+    "title": "TAUSCHE Autoticket E gegen Festivalticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80902",
+    "author": "danny_coeval",
+    "timestamp": "2026-05-29 11:27:56",
+    "matched_keywords": [
+      "tausche"
+    ],
+    "replied": true,
+    "reason": "replied — matched: tausche"
   }
 }
