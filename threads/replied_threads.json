@@ -181,5 +181,29 @@
     ],
     "replied": true,
     "reason": "replied — matched: tausche"
+  },
+  "81019": {
+    "title": "2 Tickets abzugeben",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81019",
+    "author": "sitwotw",
+    "timestamp": "2026-05-31 14:46:23",
+    "matched_keywords": [
+      "abzugeben",
+      "gebe"
+    ],
+    "replied": true,
+    "reason": "replied — matched: abzugeben, gebe"
+  },
+  "81017": {
+    "title": "2 Tickets abzugeben",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81017",
+    "author": "veroavel",
+    "timestamp": "2026-05-31 14:46:27",
+    "matched_keywords": [
+      "abzugeben",
+      "gebe"
+    ],
+    "replied": false,
+    "reason": "post_reply failed — check logs for details"
   }
 }
