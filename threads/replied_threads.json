@@ -205,5 +205,16 @@
     ],
     "replied": false,
     "reason": "post_reply failed — check logs for details"
+  },
+  "81275": {
+    "title": "Tausche Tattoo gegen Ticket falls du aus Bayern kommst",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81275",
+    "author": "SCHLEMMEREMMA",
+    "timestamp": "2026-06-02 21:44:03",
+    "matched_keywords": [
+      "tausche"
+    ],
+    "replied": true,
+    "reason": "replied — matched: tausche"
   }
 }
