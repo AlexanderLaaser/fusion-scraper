@@ -249,5 +249,16 @@
     ],
     "replied": true,
     "reason": "replied — matched: biete"
+  },
+  "81605": {
+    "title": "Ich hätte auch gern ein Ticket, biete Mitfahrgelegenheit aus/nach München",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81605",
+    "author": "glossardi",
+    "timestamp": "2026-06-04 19:29:16",
+    "matched_keywords": [
+      "biete"
+    ],
+    "replied": true,
+    "reason": "replied — matched: biete"
   }
 }
