@@ -238,5 +238,16 @@
     ],
     "replied": true,
     "reason": "replied — matched: biete"
+  },
+  "81556": {
+    "title": "🍞 Bäcker sucht Ticket, biete frische Brötchen am Lagerplatz FTRRW",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81556",
+    "author": "teiglinge_tom",
+    "timestamp": "2026-06-04 15:46:43",
+    "matched_keywords": [
+      "biete"
+    ],
+    "replied": true,
+    "reason": "replied — matched: biete"
   }
 }
