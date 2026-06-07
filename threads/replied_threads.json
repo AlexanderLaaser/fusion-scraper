@@ -260,5 +260,16 @@
     ],
     "replied": true,
     "reason": "replied — matched: biete"
+  },
+  "81883": {
+    "title": "Vielleicht hat eine Person noch ein Ticket zu vergeben",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81883",
+    "author": "glossardi",
+    "timestamp": "2026-06-07 10:09:29",
+    "matched_keywords": [
+      "gebe"
+    ],
+    "replied": true,
+    "reason": "replied — matched: gebe"
   }
 }
