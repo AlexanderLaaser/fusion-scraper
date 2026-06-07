@@ -283,5 +283,16 @@
     ],
     "replied": true,
     "reason": "replied — matched: abzugeben, gebe"
+  },
+  "81959": {
+    "title": "2 Tickets gesucht! Wir tauschen gegen Gepäcktransport zur Fusion",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81959",
+    "author": "Lauraaaa",
+    "timestamp": "2026-06-07 20:06:15",
+    "matched_keywords": [
+      "tausche"
+    ],
+    "replied": true,
+    "reason": "replied — matched: tausche"
   }
 }
