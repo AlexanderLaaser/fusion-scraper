@@ -271,5 +271,17 @@
     ],
     "replied": true,
     "reason": "replied — matched: gebe"
+  },
+  "81890": {
+    "title": "Jemand Lust sein Ticket abzugeben ich freue mich",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81890",
+    "author": "glossardi",
+    "timestamp": "2026-06-07 11:21:21",
+    "matched_keywords": [
+      "abzugeben",
+      "gebe"
+    ],
+    "replied": true,
+    "reason": "replied — matched: abzugeben, gebe"
   }
 }
