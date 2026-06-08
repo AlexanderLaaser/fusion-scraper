@@ -327,5 +327,16 @@
     ],
     "replied": true,
     "reason": "replied — matched: biete"
+  },
+  "82129": {
+    "title": "Reisegruppe verhindert, biete 1 evtl.2 Tickets, Gesellschaft u. MfG",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82129",
+    "author": "Ozzy0815",
+    "timestamp": "2026-06-08 21:01:36",
+    "matched_keywords": [
+      "biete"
+    ],
+    "replied": true,
+    "reason": "replied — matched: biete"
   }
 }
