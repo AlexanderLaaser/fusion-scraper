@@ -349,5 +349,17 @@
     ],
     "replied": true,
     "reason": "replied — matched: biete"
+  },
+  "82184": {
+    "title": "Hat jemand ein Fusion 2026 Ticket abzugeben? :)",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82184",
+    "author": "Bennett137",
+    "timestamp": "2026-06-09 03:21:10",
+    "matched_keywords": [
+      "abzugeben",
+      "gebe"
+    ],
+    "replied": true,
+    "reason": "replied — matched: abzugeben, gebe"
   }
 }
