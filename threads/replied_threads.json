@@ -372,5 +372,17 @@
     ],
     "replied": true,
     "reason": "replied — matched: biete"
+  },
+  "82474": {
+    "title": "BIETE E Autoticket, TAUSCHE gegen Festivalticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82474",
+    "author": "danny_coeval",
+    "timestamp": "2026-06-10 13:43:40",
+    "matched_keywords": [
+      "biete",
+      "tausche"
+    ],
+    "replied": true,
+    "reason": "replied — matched: biete, tausche"
   }
 }
