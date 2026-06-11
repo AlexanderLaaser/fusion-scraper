@@ -8,7 +8,7 @@ G7Q7P
 
 Zusätzlich spenden ich gerne 50 Euro an den Kulturkosmos und würden mich erkenntlich zeigen wenn du Lust auf ein Treffen hast! ☀️
 
-Ich bedanke mich mich vielmals im Voraus 🫶
+Ich bedanke mich vielmals im Voraus 🫶
 
 Kosmische Grüße
 Alex
