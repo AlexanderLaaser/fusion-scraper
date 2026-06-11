@@ -406,5 +406,16 @@
     ],
     "replied": true,
     "reason": "replied — matched: biete"
+  },
+  "82838": {
+    "title": "Verkaufe Ticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82838",
+    "author": "Phenethylaminlover",
+    "timestamp": "2026-06-12 01:48:37",
+    "matched_keywords": [
+      "verkaufe"
+    ],
+    "replied": true,
+    "reason": "replied — matched: verkaufe"
   }
 }
