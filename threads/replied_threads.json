@@ -395,5 +395,16 @@
     ],
     "replied": true,
     "reason": "replied — matched: biete"
+  },
+  "82744": {
+    "title": "Biete Ticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82744",
+    "author": "Lena_038927",
+    "timestamp": "2026-06-11 17:07:44",
+    "matched_keywords": [
+      "biete"
+    ],
+    "replied": true,
+    "reason": "replied — matched: biete"
   }
 }
