@@ -439,5 +439,27 @@
     ],
     "replied": true,
     "reason": "replied — matched: biete"
+  },
+  "83163": {
+    "title": "Biete KEIN Fusion Ticket, aber einen Bot (1. Kommentar)",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83163",
+    "author": "DesertDance",
+    "timestamp": "2026-06-13 16:41:47",
+    "matched_keywords": [
+      "biete"
+    ],
+    "replied": true,
+    "reason": "replied — matched: biete"
+  },
+  "83158": {
+    "title": "Biete 320 EUR für Fusion ticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83158",
+    "author": "dasquadratich",
+    "timestamp": "2026-06-13 16:41:54",
+    "matched_keywords": [
+      "biete"
+    ],
+    "replied": false,
+    "reason": "post_reply failed — check logs for details"
   }
 }
