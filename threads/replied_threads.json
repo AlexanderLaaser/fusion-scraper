@@ -428,5 +428,16 @@
     ],
     "replied": true,
     "reason": "replied — matched: biete"
+  },
+  "83150": {
+    "title": "Biete 300€ für fusion ticket YZBJM",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83150",
+    "author": "Lena_038927",
+    "timestamp": "2026-06-13 15:52:45",
+    "matched_keywords": [
+      "biete"
+    ],
+    "replied": true,
+    "reason": "replied — matched: biete"
   }
 }
