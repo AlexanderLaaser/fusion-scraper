@@ -461,5 +461,16 @@
     ],
     "replied": false,
     "reason": "post_reply failed — check logs for details"
+  },
+  "83236": {
+    "title": "[Biete] 2x Festival Ticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83236",
+    "author": "pil_ea",
+    "timestamp": "2026-06-14 10:32:21",
+    "matched_keywords": [
+      "biete"
+    ],
+    "replied": true,
+    "reason": "replied — matched: biete"
   }
 }
