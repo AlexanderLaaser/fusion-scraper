@@ -505,5 +505,16 @@
     ],
     "replied": true,
     "reason": "replied — matched: biete"
+  },
+  "83540": {
+    "title": "Ticket abgeben ist schwer aber ich würd mich freuen - ATUWF",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83540",
+    "author": "CHARACTERS_XXY",
+    "timestamp": "2026-06-15 16:25:12",
+    "matched_keywords": [
+      "gebe"
+    ],
+    "replied": true,
+    "reason": "replied — matched: gebe"
   }
 }
