@@ -483,5 +483,16 @@
     ],
     "replied": true,
     "reason": "replied — matched: biete"
+  },
+  "83413": {
+    "title": "Biete kein Ticket mehr",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83413",
+    "author": "Love - 66",
+    "timestamp": "2026-06-15 09:35:41",
+    "matched_keywords": [
+      "biete"
+    ],
+    "replied": true,
+    "reason": "replied — matched: biete"
   }
 }
