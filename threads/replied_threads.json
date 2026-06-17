@@ -549,5 +549,40 @@
     ],
     "replied": true,
     "reason": "replied — matched: biete"
+  },
+  "78918": {
+    "title": "Festival Ticket abzugeben",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=78918",
+    "author": "LouKlaus91",
+    "timestamp": "2026-06-17 09:28:43",
+    "matched_keywords": [
+      "abzugeben",
+      "gebe"
+    ],
+    "replied": true,
+    "reason": "replied — matched: abzugeben, gebe"
+  },
+  "78932": {
+    "title": "Ticket abzugeben",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=78932",
+    "author": "Artur Neufeld",
+    "timestamp": "2026-06-17 09:28:50",
+    "matched_keywords": [
+      "abzugeben",
+      "gebe"
+    ],
+    "replied": false,
+    "reason": "post_reply failed — check logs for details"
+  },
+  "84181": {
+    "title": "Biete Festival Ticket 🚀 gegen Autoticket D 🚗",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84181",
+    "author": "piapiapiapia_10",
+    "timestamp": "2026-06-17 09:28:58",
+    "matched_keywords": [
+      "biete"
+    ],
+    "replied": true,
+    "reason": "replied — matched: biete"
   }
 }
