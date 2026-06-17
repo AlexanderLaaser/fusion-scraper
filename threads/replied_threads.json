@@ -628,5 +628,16 @@
     ],
     "replied": true,
     "reason": "replied — matched: biete"
+  },
+  "84550": {
+    "title": "sonntags Ticket zu verkaufen",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84550",
+    "author": "Chrysa",
+    "timestamp": "2026-06-17 22:40:30",
+    "matched_keywords": [
+      "verkaufe"
+    ],
+    "replied": true,
+    "reason": "replied — matched: verkaufe"
   }
 }
