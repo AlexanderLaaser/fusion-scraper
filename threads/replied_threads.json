@@ -606,5 +606,16 @@
     ],
     "replied": true,
     "reason": "replied — matched: verkaufe"
+  },
+  "84399": {
+    "title": "Tausche zwei Sonntagstickets für Festivaltickets",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84399",
+    "author": "HeidiHell",
+    "timestamp": "2026-06-17 15:44:34",
+    "matched_keywords": [
+      "tausche"
+    ],
+    "replied": true,
+    "reason": "replied — matched: tausche"
   }
 }
