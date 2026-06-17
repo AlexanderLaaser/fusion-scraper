@@ -584,5 +584,16 @@
     ],
     "replied": true,
     "reason": "replied — matched: biete"
+  },
+  "84237": {
+    "title": "🦝 Die Hoffnung auf ein Fusion Ticket wird nicht aufgegeben LGPXL",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84237",
+    "author": "MaryAnn",
+    "timestamp": "2026-06-17 11:13:04",
+    "matched_keywords": [
+      "gebe"
+    ],
+    "replied": true,
+    "reason": "replied — matched: gebe"
   }
 }
