@@ -639,5 +639,27 @@
     ],
     "replied": true,
     "reason": "replied — matched: verkaufe"
+  },
+  "84573": {
+    "title": "Biete Inselticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84573",
+    "author": "lalush",
+    "timestamp": "2026-06-17 23:25:49",
+    "matched_keywords": [
+      "biete"
+    ],
+    "replied": true,
+    "reason": "replied — matched: biete"
+  },
+  "84555": {
+    "title": "Verkaufe Auto Ticket B",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84555",
+    "author": "Micha.s",
+    "timestamp": "2026-06-17 23:25:59",
+    "matched_keywords": [
+      "verkaufe"
+    ],
+    "replied": false,
+    "reason": "post_reply failed — check logs for details"
   }
 }
