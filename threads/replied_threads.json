@@ -595,5 +595,16 @@
     ],
     "replied": true,
     "reason": "replied — matched: gebe"
+  },
+  "84325": {
+    "title": "2 festival ticket zu Verkaufen",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84325",
+    "author": "AINDRI NARAYANI",
+    "timestamp": "2026-06-17 14:25:46",
+    "matched_keywords": [
+      "verkaufe"
+    ],
+    "replied": true,
+    "reason": "replied — matched: verkaufe"
   }
 }
