@@ -728,5 +728,60 @@
     ],
     "replied": true,
     "reason": "replied — matched: biete"
+  },
+  "85018": {
+    "title": "TAUSCHE: 2x fusiontickets gegen 1x insel auto ticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=85018",
+    "author": "tabe-groove",
+    "timestamp": "2026-06-18 21:49:26",
+    "matched_keywords": [
+      "tausche"
+    ],
+    "replied": true,
+    "reason": "replied — matched: tausche"
+  },
+  "85024": {
+    "title": "Bieten 1-2 Fusiontickets für ein C&F oder Gäste Insel Ticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=85024",
+    "author": "ciao_mit_miau",
+    "timestamp": "2026-06-18 21:49:34",
+    "matched_keywords": [
+      "biete"
+    ],
+    "replied": false,
+    "reason": "post_reply failed — check logs for details"
+  },
+  "85023": {
+    "title": "Bieten 1-2 Fusiontickets für ein C&F oder Gäste Insel Ticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=85023",
+    "author": "ciao_mit_miau",
+    "timestamp": "2026-06-18 21:49:38",
+    "matched_keywords": [
+      "biete"
+    ],
+    "replied": false,
+    "reason": "post_reply failed — check logs for details"
+  },
+  "85016": {
+    "title": "Biete kostenlose Fahrt gegen Ticket-weitervermittlung",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=85016",
+    "author": "lalush",
+    "timestamp": "2026-06-18 21:49:43",
+    "matched_keywords": [
+      "biete"
+    ],
+    "replied": true,
+    "reason": "replied — matched: biete"
+  },
+  "85019": {
+    "title": "TAUSCHE: 2x fusiontickets gegen 1x insel auto ticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=85019",
+    "author": "adn01",
+    "timestamp": "2026-06-18 21:49:50",
+    "matched_keywords": [
+      "tausche"
+    ],
+    "replied": false,
+    "reason": "post_reply failed — check logs for details"
   }
 }
