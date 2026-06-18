@@ -1,132 +1,4 @@
 {
-  "79245": {
-    "title": null,
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=79245",
-    "author": null,
-    "timestamp": null,
-    "matched_keywords": [],
-    "replied": true,
-    "reason": "replied — migrated from legacy format"
-  },
-  "79459": {
-    "title": null,
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=79459",
-    "author": null,
-    "timestamp": null,
-    "matched_keywords": [],
-    "replied": true,
-    "reason": "replied — migrated from legacy format"
-  },
-  "79693": {
-    "title": null,
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=79693",
-    "author": null,
-    "timestamp": null,
-    "matched_keywords": [],
-    "replied": true,
-    "reason": "replied — migrated from legacy format"
-  },
-  "79790": {
-    "title": null,
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=79790",
-    "author": null,
-    "timestamp": null,
-    "matched_keywords": [],
-    "replied": true,
-    "reason": "replied — migrated from legacy format"
-  },
-  "79890": {
-    "title": null,
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=79890",
-    "author": null,
-    "timestamp": null,
-    "matched_keywords": [],
-    "replied": true,
-    "reason": "replied — migrated from legacy format"
-  },
-  "80017": {
-    "title": null,
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80017",
-    "author": null,
-    "timestamp": null,
-    "matched_keywords": [],
-    "replied": true,
-    "reason": "replied — migrated from legacy format"
-  },
-  "80029": {
-    "title": null,
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80029",
-    "author": null,
-    "timestamp": null,
-    "matched_keywords": [],
-    "replied": true,
-    "reason": "replied — migrated from legacy format"
-  },
-  "80168": {
-    "title": null,
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80168",
-    "author": null,
-    "timestamp": null,
-    "matched_keywords": [],
-    "replied": true,
-    "reason": "replied — migrated from legacy format"
-  },
-  "80253": {
-    "title": null,
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80253",
-    "author": null,
-    "timestamp": null,
-    "matched_keywords": [],
-    "replied": true,
-    "reason": "replied — migrated from legacy format"
-  },
-  "80308": {
-    "title": null,
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80308",
-    "author": null,
-    "timestamp": null,
-    "matched_keywords": [],
-    "replied": true,
-    "reason": "replied — migrated from legacy format"
-  },
-  "80399": {
-    "title": null,
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80399",
-    "author": null,
-    "timestamp": null,
-    "matched_keywords": [],
-    "replied": true,
-    "reason": "replied — migrated from legacy format"
-  },
-  "80426": {
-    "title": null,
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80426",
-    "author": null,
-    "timestamp": null,
-    "matched_keywords": [],
-    "replied": true,
-    "reason": "replied — migrated from legacy format"
-  },
-  "80572": {
-    "title": null,
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80572",
-    "author": null,
-    "timestamp": null,
-    "matched_keywords": [],
-    "replied": true,
-    "reason": "replied — migrated from legacy format"
-  },
-  "80657": {
-    "title": "Frage zu: Biete Fusion Ticket",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80657",
-    "author": "Frddy",
-    "timestamp": "2026-05-26 22:54:07",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
   "80487": {
     "title": "Biete 2 Festivaltickets",
     "url": "https://forum.fusion-festival.de/viewtopic.php?t=80487",
@@ -135,142 +7,39 @@
     "matched_keywords": [
       "biete"
     ],
-    "replied": false,
-    "reason": "post_reply failed — check logs for details"
+    "accounts_replied": []
   },
-  "80800": {
-    "title": "Ticket für ehemaligen Ticketgeber ;)) CGXLH",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80800",
-    "author": "CarlinKöln",
-    "timestamp": "2026-05-28 09:41:25",
-    "matched_keywords": [
-      "gebe"
-    ],
-    "replied": true,
-    "reason": "replied — matched: gebe"
-  },
-  "80902": {
-    "title": "TAUSCHE Autoticket E gegen Festivalticket",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80902",
-    "author": "danny_coeval",
-    "timestamp": "2026-05-29 11:27:56",
-    "matched_keywords": [
-      "tausche"
-    ],
-    "replied": true,
-    "reason": "replied — matched: tausche"
-  },
-  "80906": {
-    "title": "Biete Mitfahrgelegenheit gegen Ticket!",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80906",
-    "author": "Maddielene",
-    "timestamp": "2026-05-29 12:48:32",
+  "83119": {
+    "title": "BIETEN: 1x Ticket gegen Clean Driver am SO -> Köln",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83119",
+    "author": "tiantian",
+    "timestamp": "2026-06-13 13:01:13",
     "matched_keywords": [
       "biete"
     ],
-    "replied": true,
-    "reason": "replied — matched: biete"
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
-  "80923": {
-    "title": "Tausche Autoticket D gegen Festivalticket",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80923",
-    "author": "Narolyka",
-    "timestamp": "2026-05-29 19:06:09",
-    "matched_keywords": [
-      "tausche"
-    ],
-    "replied": true,
-    "reason": "replied — matched: tausche"
-  },
-  "81019": {
-    "title": "2 Tickets abzugeben",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81019",
-    "author": "sitwotw",
-    "timestamp": "2026-05-31 14:46:23",
-    "matched_keywords": [
-      "abzugeben",
-      "gebe"
-    ],
-    "replied": true,
-    "reason": "replied — matched: abzugeben, gebe"
-  },
-  "81017": {
-    "title": "2 Tickets abzugeben",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81017",
-    "author": "veroavel",
-    "timestamp": "2026-05-31 14:46:27",
-    "matched_keywords": [
-      "abzugeben",
-      "gebe"
-    ],
-    "replied": false,
-    "reason": "post_reply failed — check logs for details"
-  },
-  "81275": {
-    "title": "Tausche Tattoo gegen Ticket falls du aus Bayern kommst",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81275",
-    "author": "SCHLEMMEREMMA",
-    "timestamp": "2026-06-02 21:44:03",
-    "matched_keywords": [
-      "tausche"
-    ],
-    "replied": true,
-    "reason": "replied — matched: tausche"
-  },
-  "81457": {
-    "title": "💫🌝 BIETE Dinge gegen Ticket 🌝💫",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81457",
-    "author": "Ketamaus06",
-    "timestamp": "2026-06-03 23:32:42",
+  "84626": {
+    "title": "Biete 1 Ticket an von dir zu kaufen 🌞 Code:VKBRH",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84626",
+    "author": "Mugiwara-san",
+    "timestamp": "2026-06-18 09:06:57",
     "matched_keywords": [
       "biete"
     ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "81549": {
-    "title": "Biete Fusionticket",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81549",
-    "author": "simsim",
-    "timestamp": "2026-06-04 14:32:18",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "81556": {
-    "title": "🍞 Bäcker sucht Ticket, biete frische Brötchen am Lagerplatz FTRRW",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81556",
-    "author": "teiglinge_tom",
-    "timestamp": "2026-06-04 15:46:43",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "81605": {
-    "title": "Ich hätte auch gern ein Ticket, biete Mitfahrgelegenheit aus/nach München",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81605",
-    "author": "glossardi",
-    "timestamp": "2026-06-04 19:29:16",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "81883": {
-    "title": "Vielleicht hat eine Person noch ein Ticket zu vergeben",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81883",
-    "author": "glossardi",
-    "timestamp": "2026-06-07 10:09:29",
-    "matched_keywords": [
-      "gebe"
-    ],
-    "replied": true,
-    "reason": "replied — matched: gebe"
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
   "81890": {
     "title": "Jemand Lust sein Ticket abzugeben ich freue mich",
@@ -281,63 +50,55 @@
       "abzugeben",
       "gebe"
     ],
-    "replied": true,
-    "reason": "replied — matched: abzugeben, gebe"
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
-  "81959": {
-    "title": "2 Tickets gesucht! Wir tauschen gegen Gepäcktransport zur Fusion",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81959",
-    "author": "Lauraaaa",
-    "timestamp": "2026-06-07 20:06:15",
+  "81605": {
+    "title": "Ich hätte auch gern ein Ticket, biete Mitfahrgelegenheit aus/nach München",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81605",
+    "author": "glossardi",
+    "timestamp": "2026-06-04 19:29:16",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "85019": {
+    "title": "TAUSCHE: 2x fusiontickets gegen 1x insel auto ticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=85019",
+    "author": "adn01",
+    "timestamp": "2026-06-18 21:49:50",
     "matched_keywords": [
       "tausche"
     ],
-    "replied": true,
-    "reason": "replied — matched: tausche"
+    "accounts_replied": []
   },
-  "81971": {
-    "title": "wir geben nicht auf: PKASJ",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81971",
-    "author": "Angmo.Photo",
-    "timestamp": "2026-06-07 22:24:13",
-    "matched_keywords": [
-      "gebe"
-    ],
-    "replied": true,
-    "reason": "replied — matched: gebe"
-  },
-  "82027": {
-    "title": "Biete 2 x Sonntagstickets",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82027",
-    "author": "nbshantis",
-    "timestamp": "2026-06-08 12:58:31",
+  "81457": {
+    "title": "💫🌝 BIETE Dinge gegen Ticket 🌝💫",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81457",
+    "author": "Ketamaus06",
+    "timestamp": "2026-06-03 23:32:42",
     "matched_keywords": [
       "biete"
     ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "82082": {
-    "title": "Biete Fusion Ticket gegen XL Camper Ticket",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82082",
-    "author": "Kleinerengel",
-    "timestamp": "2026-06-08 17:24:33",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "82129": {
-    "title": "Reisegruppe verhindert, biete 1 evtl.2 Tickets, Gesellschaft u. MfG",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82129",
-    "author": "Ozzy0815",
-    "timestamp": "2026-06-08 21:01:36",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
   "82142": {
     "title": "Fusionist aus Dresden sucht Ticket - Biete gute Zeit und Mitfahrgelegenheit",
@@ -347,276 +108,13 @@
     "matched_keywords": [
       "biete"
     ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "82184": {
-    "title": "Hat jemand ein Fusion 2026 Ticket abzugeben? :)",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82184",
-    "author": "Bennett137",
-    "timestamp": "2026-06-09 03:21:10",
-    "matched_keywords": [
-      "abzugeben",
-      "gebe"
-    ],
-    "replied": true,
-    "reason": "replied — matched: abzugeben, gebe"
-  },
-  "82298": {
-    "title": "ein Ticket für Fusion \"HGZWX\" / BIETE Pkw+ Fahrer",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82298",
-    "author": "mike_aus_berlin",
-    "timestamp": "2026-06-09 17:45:39",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "82474": {
-    "title": "BIETE E Autoticket, TAUSCHE gegen Festivalticket",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82474",
-    "author": "danny_coeval",
-    "timestamp": "2026-06-10 13:43:40",
-    "matched_keywords": [
-      "biete",
-      "tausche"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete, tausche"
-  },
-  "82633": {
-    "title": "Biete Festivalticket",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82633",
-    "author": "lisydong",
-    "timestamp": "2026-06-11 07:51:39",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "82744": {
-    "title": "Biete Ticket",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82744",
-    "author": "Lena_038927",
-    "timestamp": "2026-06-11 17:07:44",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "82838": {
-    "title": "Verkaufe Ticket",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82838",
-    "author": "Phenethylaminlover",
-    "timestamp": "2026-06-12 01:48:37",
-    "matched_keywords": [
-      "verkaufe"
-    ],
-    "replied": true,
-    "reason": "replied — matched: verkaufe"
-  },
-  "83119": {
-    "title": "BIETEN: 1x Ticket gegen Clean Driver am SO -> Köln",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83119",
-    "author": "tiantian",
-    "timestamp": "2026-06-13 13:01:13",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "83150": {
-    "title": "Biete 300€ für fusion ticket YZBJM",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83150",
-    "author": "Lena_038927",
-    "timestamp": "2026-06-13 15:52:45",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "83163": {
-    "title": "Biete KEIN Fusion Ticket, aber einen Bot (1. Kommentar)",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83163",
-    "author": "DesertDance",
-    "timestamp": "2026-06-13 16:41:47",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "83158": {
-    "title": "Biete 320 EUR für Fusion ticket",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83158",
-    "author": "dasquadratich",
-    "timestamp": "2026-06-13 16:41:54",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": false,
-    "reason": "post_reply failed — check logs for details"
-  },
-  "83236": {
-    "title": "[Biete] 2x Festival Ticket",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83236",
-    "author": "pil_ea",
-    "timestamp": "2026-06-14 10:32:21",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "83329": {
-    "title": "Ticket gesucht RY3PZ, Biete Mitfahrgelegenheit",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83329",
-    "author": "makerkho",
-    "timestamp": "2026-06-14 18:29:00",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "83413": {
-    "title": "Biete kein Ticket mehr",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83413",
-    "author": "Love - 66",
-    "timestamp": "2026-06-15 09:35:41",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "83491": {
-    "title": "BIETE BASSLINER von Düsseldorf",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83491",
-    "author": "Lilminee",
-    "timestamp": "2026-06-15 14:00:39",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "83540": {
-    "title": "Ticket abgeben ist schwer aber ich würd mich freuen - ATUWF",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83540",
-    "author": "CHARACTERS_XXY",
-    "timestamp": "2026-06-15 16:25:12",
-    "matched_keywords": [
-      "gebe"
-    ],
-    "replied": true,
-    "reason": "replied — matched: gebe"
-  },
-  "83910": {
-    "title": "Zwei Tickets gegen ein Auto Ticket zu vergeben",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83910",
-    "author": "Franzi0203",
-    "timestamp": "2026-06-16 13:59:57",
-    "matched_keywords": [
-      "gebe"
-    ],
-    "replied": true,
-    "reason": "replied — matched: gebe"
-  },
-  "83994": {
-    "title": "Sober Driver sucht noch Ticket SVB3Q biete MFG aus Bremen",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83994",
-    "author": "matisgrentalitaet161",
-    "timestamp": "2026-06-16 17:52:33",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "84039": {
-    "title": "BIETE Ineselticket, benötige dafür Campen D + 1 x Festivalticket",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84039",
-    "author": "Jumoutina123",
-    "timestamp": "2026-06-16 19:39:27",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "78918": {
-    "title": "Festival Ticket abzugeben",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=78918",
-    "author": "LouKlaus91",
-    "timestamp": "2026-06-17 09:28:43",
-    "matched_keywords": [
-      "abzugeben",
-      "gebe"
-    ],
-    "replied": true,
-    "reason": "replied — matched: abzugeben, gebe"
-  },
-  "78932": {
-    "title": "Ticket abzugeben",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=78932",
-    "author": "Artur Neufeld",
-    "timestamp": "2026-06-17 09:28:50",
-    "matched_keywords": [
-      "abzugeben",
-      "gebe"
-    ],
-    "replied": false,
-    "reason": "post_reply failed — check logs for details"
-  },
-  "84181": {
-    "title": "Biete Festival Ticket 🚀 gegen Autoticket D 🚗",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84181",
-    "author": "piapiapiapia_10",
-    "timestamp": "2026-06-17 09:28:58",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "84237": {
-    "title": "🦝 Die Hoffnung auf ein Fusion Ticket wird nicht aufgegeben LGPXL",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84237",
-    "author": "MaryAnn",
-    "timestamp": "2026-06-17 11:13:04",
-    "matched_keywords": [
-      "gebe"
-    ],
-    "replied": true,
-    "reason": "replied — matched: gebe"
-  },
-  "84325": {
-    "title": "2 festival ticket zu Verkaufen",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84325",
-    "author": "AINDRI NARAYANI",
-    "timestamp": "2026-06-17 14:25:46",
-    "matched_keywords": [
-      "verkaufe"
-    ],
-    "replied": true,
-    "reason": "replied — matched: verkaufe"
-  },
-  "84399": {
-    "title": "Tausche zwei Sonntagstickets für Festivaltickets",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84399",
-    "author": "HeidiHell",
-    "timestamp": "2026-06-17 15:44:34",
-    "matched_keywords": [
-      "tausche"
-    ],
-    "replied": true,
-    "reason": "replied — matched: tausche"
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
   "84473": {
     "title": "Autoticket gesucht, biete Schlafplatz im Womo mit 2x Verpflegung (selbstgekocht)",
@@ -626,19 +124,45 @@
     "matched_keywords": [
       "biete"
     ],
-    "replied": true,
-    "reason": "replied — matched: biete"
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
-  "84550": {
-    "title": "sonntags Ticket zu verkaufen",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84550",
-    "author": "Chrysa",
-    "timestamp": "2026-06-17 22:40:30",
+  "80906": {
+    "title": "Biete Mitfahrgelegenheit gegen Ticket!",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80906",
+    "author": "Maddielene",
+    "timestamp": "2026-05-29 12:48:32",
     "matched_keywords": [
-      "verkaufe"
+      "biete"
     ],
-    "replied": true,
-    "reason": "replied — matched: verkaufe"
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "82298": {
+    "title": "ein Ticket für Fusion \"HGZWX\" / BIETE Pkw+ Fahrer",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82298",
+    "author": "mike_aus_berlin",
+    "timestamp": "2026-06-09 17:45:39",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
   "84573": {
     "title": "Biete Inselticket",
@@ -648,52 +172,29 @@
     "matched_keywords": [
       "biete"
     ],
-    "replied": true,
-    "reason": "replied — matched: biete"
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
-  "84555": {
-    "title": "Verkaufe Auto Ticket B",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84555",
-    "author": "Micha.s",
-    "timestamp": "2026-06-17 23:25:59",
-    "matched_keywords": [
-      "verkaufe"
-    ],
-    "replied": false,
-    "reason": "post_reply failed — check logs for details"
-  },
-  "84626": {
-    "title": "Biete 1 Ticket an von dir zu kaufen 🌞 Code:VKBRH",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84626",
-    "author": "Mugiwara-san",
-    "timestamp": "2026-06-18 09:06:57",
+  "84810": {
+    "title": "Berliner Pärchen sucht dringend 2 Tickets - bieten MFG",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84810",
+    "author": "folker",
+    "timestamp": "2026-06-18 15:01:35",
     "matched_keywords": [
       "biete"
     ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "84668": {
-    "title": "Biete 2x Auto Ticket D gegen Festival Ticket",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84668",
-    "author": "louchens",
-    "timestamp": "2026-06-18 10:50:58",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "84724": {
-    "title": "FUSION TICKET UND BASSLINER VON KÖLN - ANBIETEN",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84724",
-    "author": "Jannik_D",
-    "timestamp": "2026-06-18 12:29:27",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
   "84206": {
     "title": "Fusion Insel-Auto-Ticket abzugeben",
@@ -704,52 +205,13 @@
       "abzugeben",
       "gebe"
     ],
-    "replied": true,
-    "reason": "replied — matched: abzugeben, gebe"
-  },
-  "84822": {
-    "title": "Ticket gesucht [VFQDV] – biete ewige Dankbarkeit und einen freien Platz im Festival-Karma-Konto",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84822",
-    "author": "louis.tondoktor",
-    "timestamp": "2026-06-18 15:01:14",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "84810": {
-    "title": "Berliner Pärchen sucht dringend 2 Tickets - bieten MFG",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84810",
-    "author": "folker",
-    "timestamp": "2026-06-18 15:01:35",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": true,
-    "reason": "replied — matched: biete"
-  },
-  "85018": {
-    "title": "TAUSCHE: 2x fusiontickets gegen 1x insel auto ticket",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=85018",
-    "author": "tabe-groove",
-    "timestamp": "2026-06-18 21:49:26",
-    "matched_keywords": [
-      "tausche"
-    ],
-    "replied": true,
-    "reason": "replied — matched: tausche"
-  },
-  "85024": {
-    "title": "Bieten 1-2 Fusiontickets für ein C&F oder Gäste Insel Ticket",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=85024",
-    "author": "ciao_mit_miau",
-    "timestamp": "2026-06-18 21:49:34",
-    "matched_keywords": [
-      "biete"
-    ],
-    "replied": false,
-    "reason": "post_reply failed — check logs for details"
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
   "85023": {
     "title": "Bieten 1-2 Fusiontickets für ein C&F oder Gäste Insel Ticket",
@@ -759,8 +221,674 @@
     "matched_keywords": [
       "biete"
     ],
-    "replied": false,
-    "reason": "post_reply failed — check logs for details"
+    "accounts_replied": []
+  },
+  "82474": {
+    "title": "BIETE E Autoticket, TAUSCHE gegen Festivalticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82474",
+    "author": "danny_coeval",
+    "timestamp": "2026-06-10 13:43:40",
+    "matched_keywords": [
+      "biete",
+      "tausche"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "81017": {
+    "title": "2 Tickets abzugeben",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81017",
+    "author": "veroavel",
+    "timestamp": "2026-05-31 14:46:27",
+    "matched_keywords": [
+      "abzugeben",
+      "gebe"
+    ],
+    "accounts_replied": []
+  },
+  "84039": {
+    "title": "BIETE Ineselticket, benötige dafür Campen D + 1 x Festivalticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84039",
+    "author": "Jumoutina123",
+    "timestamp": "2026-06-16 19:39:27",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "80657": {
+    "title": "Frage zu: Biete Fusion Ticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80657",
+    "author": "Frddy",
+    "timestamp": "2026-05-26 22:54:07",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "81275": {
+    "title": "Tausche Tattoo gegen Ticket falls du aus Bayern kommst",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81275",
+    "author": "SCHLEMMEREMMA",
+    "timestamp": "2026-06-02 21:44:03",
+    "matched_keywords": [
+      "tausche"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "81556": {
+    "title": "🍞 Bäcker sucht Ticket, biete frische Brötchen am Lagerplatz FTRRW",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81556",
+    "author": "teiglinge_tom",
+    "timestamp": "2026-06-04 15:46:43",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "79693": {
+    "title": null,
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=79693",
+    "author": null,
+    "timestamp": null,
+    "matched_keywords": [],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "80800": {
+    "title": "Ticket für ehemaligen Ticketgeber ;)) CGXLH",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80800",
+    "author": "CarlinKöln",
+    "timestamp": "2026-05-28 09:41:25",
+    "matched_keywords": [
+      "gebe"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "82129": {
+    "title": "Reisegruppe verhindert, biete 1 evtl.2 Tickets, Gesellschaft u. MfG",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82129",
+    "author": "Ozzy0815",
+    "timestamp": "2026-06-08 21:01:36",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "82633": {
+    "title": "Biete Festivalticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82633",
+    "author": "lisydong",
+    "timestamp": "2026-06-11 07:51:39",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "82838": {
+    "title": "Verkaufe Ticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82838",
+    "author": "Phenethylaminlover",
+    "timestamp": "2026-06-12 01:48:37",
+    "matched_keywords": [
+      "verkaufe"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "79890": {
+    "title": null,
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=79890",
+    "author": null,
+    "timestamp": null,
+    "matched_keywords": [],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "84237": {
+    "title": "🦝 Die Hoffnung auf ein Fusion Ticket wird nicht aufgegeben LGPXL",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84237",
+    "author": "MaryAnn",
+    "timestamp": "2026-06-17 11:13:04",
+    "matched_keywords": [
+      "gebe"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "84399": {
+    "title": "Tausche zwei Sonntagstickets für Festivaltickets",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84399",
+    "author": "HeidiHell",
+    "timestamp": "2026-06-17 15:44:34",
+    "matched_keywords": [
+      "tausche"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "83910": {
+    "title": "Zwei Tickets gegen ein Auto Ticket zu vergeben",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83910",
+    "author": "Franzi0203",
+    "timestamp": "2026-06-16 13:59:57",
+    "matched_keywords": [
+      "gebe"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "80168": {
+    "title": null,
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80168",
+    "author": null,
+    "timestamp": null,
+    "matched_keywords": [],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "82184": {
+    "title": "Hat jemand ein Fusion 2026 Ticket abzugeben? :)",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82184",
+    "author": "Bennett137",
+    "timestamp": "2026-06-09 03:21:10",
+    "matched_keywords": [
+      "abzugeben",
+      "gebe"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "83413": {
+    "title": "Biete kein Ticket mehr",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83413",
+    "author": "Love - 66",
+    "timestamp": "2026-06-15 09:35:41",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "79790": {
+    "title": null,
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=79790",
+    "author": null,
+    "timestamp": null,
+    "matched_keywords": [],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "83491": {
+    "title": "BIETE BASSLINER von Düsseldorf",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83491",
+    "author": "Lilminee",
+    "timestamp": "2026-06-15 14:00:39",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "83994": {
+    "title": "Sober Driver sucht noch Ticket SVB3Q biete MFG aus Bremen",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83994",
+    "author": "matisgrentalitaet161",
+    "timestamp": "2026-06-16 17:52:33",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "78932": {
+    "title": "Ticket abzugeben",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=78932",
+    "author": "Artur Neufeld",
+    "timestamp": "2026-06-17 09:28:50",
+    "matched_keywords": [
+      "abzugeben",
+      "gebe"
+    ],
+    "accounts_replied": []
+  },
+  "80253": {
+    "title": null,
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80253",
+    "author": null,
+    "timestamp": null,
+    "matched_keywords": [],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "83329": {
+    "title": "Ticket gesucht RY3PZ, Biete Mitfahrgelegenheit",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83329",
+    "author": "makerkho",
+    "timestamp": "2026-06-14 18:29:00",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "84325": {
+    "title": "2 festival ticket zu Verkaufen",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84325",
+    "author": "AINDRI NARAYANI",
+    "timestamp": "2026-06-17 14:25:46",
+    "matched_keywords": [
+      "verkaufe"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "80017": {
+    "title": null,
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80017",
+    "author": null,
+    "timestamp": null,
+    "matched_keywords": [],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "85018": {
+    "title": "TAUSCHE: 2x fusiontickets gegen 1x insel auto ticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=85018",
+    "author": "tabe-groove",
+    "timestamp": "2026-06-18 21:49:26",
+    "matched_keywords": [
+      "tausche"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "81019": {
+    "title": "2 Tickets abzugeben",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81019",
+    "author": "sitwotw",
+    "timestamp": "2026-05-31 14:46:23",
+    "matched_keywords": [
+      "abzugeben",
+      "gebe"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "84181": {
+    "title": "Biete Festival Ticket 🚀 gegen Autoticket D 🚗",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84181",
+    "author": "piapiapiapia_10",
+    "timestamp": "2026-06-17 09:28:58",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "84668": {
+    "title": "Biete 2x Auto Ticket D gegen Festival Ticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84668",
+    "author": "louchens",
+    "timestamp": "2026-06-18 10:50:58",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "84550": {
+    "title": "sonntags Ticket zu verkaufen",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84550",
+    "author": "Chrysa",
+    "timestamp": "2026-06-17 22:40:30",
+    "matched_keywords": [
+      "verkaufe"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "79245": {
+    "title": null,
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=79245",
+    "author": null,
+    "timestamp": null,
+    "matched_keywords": [],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "80923": {
+    "title": "Tausche Autoticket D gegen Festivalticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80923",
+    "author": "Narolyka",
+    "timestamp": "2026-05-29 19:06:09",
+    "matched_keywords": [
+      "tausche"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "82027": {
+    "title": "Biete 2 x Sonntagstickets",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82027",
+    "author": "nbshantis",
+    "timestamp": "2026-06-08 12:58:31",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "80426": {
+    "title": null,
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80426",
+    "author": null,
+    "timestamp": null,
+    "matched_keywords": [],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "83158": {
+    "title": "Biete 320 EUR für Fusion ticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83158",
+    "author": "dasquadratich",
+    "timestamp": "2026-06-13 16:41:54",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": []
+  },
+  "81959": {
+    "title": "2 Tickets gesucht! Wir tauschen gegen Gepäcktransport zur Fusion",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81959",
+    "author": "Lauraaaa",
+    "timestamp": "2026-06-07 20:06:15",
+    "matched_keywords": [
+      "tausche"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "78918": {
+    "title": "Festival Ticket abzugeben",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=78918",
+    "author": "LouKlaus91",
+    "timestamp": "2026-06-17 09:28:43",
+    "matched_keywords": [
+      "abzugeben",
+      "gebe"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "83163": {
+    "title": "Biete KEIN Fusion Ticket, aber einen Bot (1. Kommentar)",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83163",
+    "author": "DesertDance",
+    "timestamp": "2026-06-13 16:41:47",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "83617": {
+    "title": "3 Tickets für diesen Sommer 🎪✊",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83617",
+    "author": "sven98trance",
+    "timestamp": "2026-06-19 00:18:53",
+    "matched_keywords": [
+      "sommer"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "82082": {
+    "title": "Biete Fusion Ticket gegen XL Camper Ticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82082",
+    "author": "Kleinerengel",
+    "timestamp": "2026-06-08 17:24:33",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "84555": {
+    "title": "Verkaufe Auto Ticket B",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84555",
+    "author": "Micha.s",
+    "timestamp": "2026-06-17 23:25:59",
+    "matched_keywords": [
+      "verkaufe"
+    ],
+    "accounts_replied": []
+  },
+  "80572": {
+    "title": null,
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80572",
+    "author": null,
+    "timestamp": null,
+    "matched_keywords": [],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "83540": {
+    "title": "Ticket abgeben ist schwer aber ich würd mich freuen - ATUWF",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83540",
+    "author": "CHARACTERS_XXY",
+    "timestamp": "2026-06-15 16:25:12",
+    "matched_keywords": [
+      "gebe"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
   "85016": {
     "title": "Biete kostenlose Fahrt gegen Ticket-weitervermittlung",
@@ -770,19 +898,207 @@
     "matched_keywords": [
       "biete"
     ],
-    "replied": true,
-    "reason": "replied — matched: biete"
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
-  "85019": {
-    "title": "TAUSCHE: 2x fusiontickets gegen 1x insel auto ticket",
-    "url": "https://forum.fusion-festival.de/viewtopic.php?t=85019",
-    "author": "adn01",
-    "timestamp": "2026-06-18 21:49:50",
+  "85024": {
+    "title": "Bieten 1-2 Fusiontickets für ein C&F oder Gäste Insel Ticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=85024",
+    "author": "ciao_mit_miau",
+    "timestamp": "2026-06-18 21:49:34",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": []
+  },
+  "80902": {
+    "title": "TAUSCHE Autoticket E gegen Festivalticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80902",
+    "author": "danny_coeval",
+    "timestamp": "2026-05-29 11:27:56",
     "matched_keywords": [
       "tausche"
     ],
-    "replied": false,
-    "reason": "post_reply failed — check logs for details"
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "80399": {
+    "title": null,
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80399",
+    "author": null,
+    "timestamp": null,
+    "matched_keywords": [],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "82744": {
+    "title": "Biete Ticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=82744",
+    "author": "Lena_038927",
+    "timestamp": "2026-06-11 17:07:44",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "81549": {
+    "title": "Biete Fusionticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81549",
+    "author": "simsim",
+    "timestamp": "2026-06-04 14:32:18",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "81883": {
+    "title": "Vielleicht hat eine Person noch ein Ticket zu vergeben",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81883",
+    "author": "glossardi",
+    "timestamp": "2026-06-07 10:09:29",
+    "matched_keywords": [
+      "gebe"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "84822": {
+    "title": "Ticket gesucht [VFQDV] – biete ewige Dankbarkeit und einen freien Platz im Festival-Karma-Konto",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84822",
+    "author": "louis.tondoktor",
+    "timestamp": "2026-06-18 15:01:14",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "84724": {
+    "title": "FUSION TICKET UND BASSLINER VON KÖLN - ANBIETEN",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84724",
+    "author": "Jannik_D",
+    "timestamp": "2026-06-18 12:29:27",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "80029": {
+    "title": null,
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80029",
+    "author": null,
+    "timestamp": null,
+    "matched_keywords": [],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "80308": {
+    "title": null,
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=80308",
+    "author": null,
+    "timestamp": null,
+    "matched_keywords": [],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "79459": {
+    "title": null,
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=79459",
+    "author": null,
+    "timestamp": null,
+    "matched_keywords": [],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "83236": {
+    "title": "[Biete] 2x Festival Ticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83236",
+    "author": "pil_ea",
+    "timestamp": "2026-06-14 10:32:21",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "81971": {
+    "title": "wir geben nicht auf: PKASJ",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=81971",
+    "author": "Angmo.Photo",
+    "timestamp": "2026-06-07 22:24:13",
+    "matched_keywords": [
+      "gebe"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
   "85036": {
     "title": "Biete 3 Stück animierte Fusionraketen gegen Ticket",
@@ -792,7 +1108,28 @@
     "matched_keywords": [
       "biete"
     ],
-    "replied": true,
-    "reason": "replied — matched: biete"
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "83150": {
+    "title": "Biete 300€ für fusion ticket YZBJM",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=83150",
+    "author": "Lena_038927",
+    "timestamp": "2026-06-13 15:52:45",
+    "matched_keywords": [
+      "biete"
+    ],
+    "accounts_replied": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   }
 }

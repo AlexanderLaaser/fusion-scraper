@@ -2,8 +2,7 @@
 """
 Fusion Festival Forum Scraper
 Monitors the ticket/marketplace forum for posts matching keywords and sends Telegram alerts.
-Optionally logs in and posts a reply on matching threads.
-Run via cron, e.g. every 15 min: */15 * * * * /path/to/venv/bin/python /path/to/scraper.py
+Loops through up to 5 configured accounts, posting per-account reply content on each match.
 """
 
 import csv
@@ -28,15 +27,21 @@ FORUM_ID = 82
 PAGE_SIZE = 25
 
 KEYWORDS = [kw for kw in (kw.strip().lower() for kw in os.getenv("KEYWORDS", "biete,verkaufe,abzugeben,tausche").split(",")) if kw]
+IGNORE_KEYWORDS = [kw for kw in (kw.strip().lower() for kw in os.getenv("IGNORE_KEYWORDS", "at.tension,suche").split(",")) if kw]
 MAX_PAGES = int(os.getenv("MAX_PAGES", "3"))
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
 
-FORUM_USER = os.getenv("FORUM_USERNAME", "")
-FORUM_PASS = os.getenv("FORUM_PASSWORD", "")
-_content_file = ROOT / "content.md"
-REPLY_TEXT = _content_file.read_text(encoding="utf-8").strip() if _content_file.exists() else os.getenv("REPLY_TEXT", "")
+# Load up to 5 account+content pairs — skips any slot missing user, pass, or content file
+ACCOUNTS: list[dict] = []
+for _i in range(1, 6):
+    _user = os.getenv(f"FORUM_USERNAME_{_i}", "")
+    _pass = os.getenv(f"FORUM_PASSWORD_{_i}", "")
+    _cf   = ROOT / "contents" / f"content{_i}.md"
+    _text = _cf.read_text(encoding="utf-8").strip() if _cf.exists() else ""
+    if _user and _pass and _text:
+        ACCOUNTS.append({"index": _i, "user": _user, "password": _pass, "content": _text})
 
 STATE_FILE   = ROOT / "threads" / "seen_threads.json"
 REPLIED_FILE = ROOT / "threads" / "replied_threads.json"
@@ -56,36 +61,44 @@ def save_seen(seen: set[str]) -> None:
     STATE_FILE.write_text(json.dumps(sorted(seen), indent=2))
 
 
-def load_replied() -> dict[str, dict]:
-    if REPLIED_FILE.exists():
-        data = json.loads(REPLIED_FILE.read_text())
-        if isinstance(data, list):
-            # Migrate legacy list format — mark all as replied with no detail
-            return {
-                tid: {
-                    "title": None,
-                    "url": f"{FORUM_BASE}/viewtopic.php?t={tid}",
-                    "author": None,
-                    "timestamp": None,
-                    "matched_keywords": [],
-                    "replied": True,
-                    "reason": "replied — migrated from legacy format",
-                }
-                for tid in data
+def load_replied() -> dict:
+    if not REPLIED_FILE.exists():
+        return {}
+    data = json.loads(REPLIED_FILE.read_text())
+    if isinstance(data, list):
+        # Legacy bare-list format — treat all accounts as done
+        return {
+            tid: {
+                "title": None,
+                "url": f"{FORUM_BASE}/viewtopic.php?t={tid}",
+                "author": None,
+                "timestamp": None,
+                "matched_keywords": [],
+                "accounts_replied": list(range(1, 6)),
             }
-        return data
-    return {}
+            for tid in data
+        }
+    migrated: dict = {}
+    for tid, d in data.items():
+        if not isinstance(d, dict):
+            continue
+        if "accounts_replied" not in d:
+            # Migrate single-account format:
+            # replied=true  → all 5 slots done (don't re-reply with new accounts)
+            # replied=false → none done (all accounts will retry)
+            d["accounts_replied"] = list(range(1, 6)) if d.get("replied") else []
+            d.pop("replied", None)
+            d.pop("reason", None)
+        migrated[tid] = d
+    return migrated
 
 
-def save_replied(replied: dict[str, dict]) -> None:
+def save_replied(replied: dict) -> None:
     REPLIED_FILE.write_text(json.dumps(replied, indent=2, ensure_ascii=False))
 
 
-def login(session: requests.Session) -> str:
-    """Returns the session sid on success, empty string on failure."""
-    if not FORUM_USER or not FORUM_PASS:
-        return ""
-
+def login(session: requests.Session, user: str, password: str) -> str:
+    """Returns session sid on success, empty string on failure."""
     login_url = f"{FORUM_BASE}/ucp.php?mode=login"
     r = session.get(login_url, timeout=15)
     r.raise_for_status()
@@ -103,8 +116,8 @@ def login(session: requests.Session) -> str:
         return el["value"] if el else ""
 
     payload = {
-        "username":      FORUM_USER,
-        "password":      FORUM_PASS,
+        "username":      user,
+        "password":      password,
         "form_token":    field("form_token"),
         "creation_time": field("creation_time"),
         "sid":           field("sid"),
@@ -112,25 +125,22 @@ def login(session: requests.Session) -> str:
         "login":         "Anmelden",
     }
 
-    # phpBB rejects forms submitted faster than ~1s after render
-    time.sleep(2)
+    time.sleep(2)  # phpBB rejects forms submitted faster than ~1s after render
 
-    r = session.post(action, data=payload, timeout=15,
-                     headers={"Referer": login_url})
+    r = session.post(action, data=payload, timeout=15, headers={"Referer": login_url})
     r.raise_for_status()
 
     if "mode=logout" not in r.text and "Abmelden" not in r.text:
-        log.warning("Login FAILED — continuing unauthenticated")
+        log.warning("Login FAILED for %s — skipping account", user)
         return ""
 
-    # Forum uses URL-based sessions — extract sid from redirect URL
     m = re.search(r"[?&]sid=([a-f0-9]+)", r.url)
     sid = m.group(1) if m else ""
-    log.info("Login OK as %s (sid=%s)", FORUM_USER, sid[:8] + "...")
+    log.info("Login OK as %s (sid=%s)", user, sid[:8] + "...")
     return sid
 
 
-def post_reply(session: requests.Session, topic_id: str, sid: str) -> bool:
+def post_reply(session: requests.Session, topic_id: str, sid: str, reply_text: str) -> bool:
     url = f"{FORUM_BASE}/posting.php?mode=reply&t={topic_id}&sid={sid}"
     r = session.get(url, timeout=15)
     r.raise_for_status()
@@ -143,24 +153,21 @@ def post_reply(session: requests.Session, topic_id: str, sid: str) -> bool:
 
     action = form.get("action", "").replace("./", f"{FORUM_BASE}/", 1)
 
-    # Carry all hidden fields to satisfy CSRF and phpBB internal state
     payload: dict[str, str] = {}
     for inp in form.find_all("input", {"type": "hidden"}):
         if inp.get("name"):
             payload[inp["name"]] = inp.get("value", "")
 
-    # subject from the form (pre-filled as "Re: <original title>")
     subject_el = form.find("input", {"name": "subject"})
     payload["subject"] = subject_el["value"] if subject_el else ""
-    payload["message"] = REPLY_TEXT
+    payload["message"] = reply_text
     payload["mode"]    = "reply"
     payload["t"]       = topic_id
-    payload["post"]    = "Absenden"  # phpBB submit button name is "post"
+    payload["post"]    = "Absenden"
 
     time.sleep(2)  # same CSRF timing requirement as login
 
-    r = session.post(action, data=payload, timeout=15,
-                     headers={"Referer": url})
+    r = session.post(action, data=payload, timeout=15, headers={"Referer": url})
     r.raise_for_status()
 
     success = "viewtopic" in r.url or "viewtopic" in r.text[:500]
@@ -171,10 +178,8 @@ def post_reply(session: requests.Session, topic_id: str, sid: str) -> bool:
     return success
 
 
-def scrape_page(session: requests.Session, page: int, sid: str = "") -> list[dict]:
+def scrape_page(session: requests.Session, page: int) -> list[dict]:
     url = f"{FORUM_BASE}/viewforum.php?f={FORUM_ID}&start={page * PAGE_SIZE}"
-    if sid:
-        url += f"&sid={sid}"
     r = session.get(url, timeout=15)
     r.raise_for_status()
     soup = BeautifulSoup(r.text, "html.parser")
@@ -211,8 +216,6 @@ def scrape_page(session: requests.Session, page: int, sid: str = "") -> list[dic
 
     return threads
 
-
-IGNORE_KEYWORDS = [kw for kw in (kw.strip().lower() for kw in os.getenv("IGNORE_KEYWORDS", "at.tension").split(",")) if kw]
 
 def matches(title: str) -> bool:
     title_lower = title.lower()
@@ -259,20 +262,16 @@ def notify(title: str, author: str, url: str) -> None:
 def main() -> None:
     seen    = load_seen()
     replied = load_replied()
-    replied_ids = {tid for tid, d in replied.items() if d.get("replied")}
-    needs_save  = any(d.get("reason") == "replied — migrated from legacy format" for d in replied.values())
 
-    session = requests.Session()
-    session.headers["User-Agent"] = "Mozilla/5.0 (compatible; fusion-monitor/1.0)"
+    scrape_session = requests.Session()
+    scrape_session.headers["User-Agent"] = "Mozilla/5.0 (compatible; fusion-monitor/1.0)"
 
-    auto_reply = bool(FORUM_USER and FORUM_PASS and REPLY_TEXT)
-    sid        = login(session) if auto_reply else ""
-
+    new_matches: list[dict] = []
     new_count = 0
 
     for page in range(MAX_PAGES):
         try:
-            threads = scrape_page(session, page, sid)
+            threads = scrape_page(scrape_session, page)
         except requests.RequestException as e:
             log.error("Failed to fetch page %d: %s", page, e)
             break
@@ -290,47 +289,55 @@ def main() -> None:
             log.info("MATCH: %s", t["title"])
             notify(t["title"], t["author"], t["url"])
             new_count += 1
-
-            if t["id"] in replied_ids:
-                continue
+            new_matches.append(t)
 
             matched_kws = [kw for kw in KEYWORDS if kw in t["title"].lower()]
-            entry: dict = {
+            replied.setdefault(t["id"], {
                 "title":            t["title"],
                 "url":              t["url"],
                 "author":           t["author"] or "unknown",
                 "timestamp":        datetime.now(ZoneInfo("Europe/Berlin")).strftime("%Y-%m-%d %H:%M:%S"),
                 "matched_keywords": matched_kws,
-                "replied":          False,
-                "reason":           "",
-            }
-
-            if not auto_reply:
-                entry["reason"] = "auto-reply disabled — credentials not configured"
-            elif not sid:
-                entry["reason"] = "auto-reply skipped — login failed"
-            else:
-                time.sleep(1)
-                if post_reply(session, t["id"], sid):
-                    entry["replied"] = True
-                    entry["reason"]  = f"replied — matched: {', '.join(matched_kws)}"
-                    replied_ids.add(t["id"])
-                else:
-                    entry["reason"] = "post_reply failed — check logs for details"
-
-            replied[t["id"]] = entry
-            save_replied(replied)
-            needs_save = False
-
-            time.sleep(0.5)
+                "accounts_replied": [],
+            })
 
         time.sleep(1.5)
 
     save_seen(seen)
-    if needs_save:
-        save_replied(replied)
-    log.info("Done — %d new match(es)", new_count)
 
+    if not ACCOUNTS:
+        log.info("No accounts configured — skipping reply phase")
+        log.info("Done — %d new match(es)", new_count)
+        write_exec_log(new_count)
+        return
+
+    # Reply phase — one session per account, login once, reply to all pending threads
+    for account in ACCOUNTS:
+        pending = [
+            t for t in new_matches
+            if account["index"] not in replied[t["id"]].get("accounts_replied", [])
+        ]
+        if not pending:
+            log.info("Account %d (%s): no pending threads", account["index"], account["user"])
+            continue
+
+        log.info("Account %d (%s): %d thread(s) to reply", account["index"], account["user"], len(pending))
+        acc_session = requests.Session()
+        acc_session.headers["User-Agent"] = "Mozilla/5.0 (compatible; fusion-monitor/1.0)"
+        sid = login(acc_session, account["user"], account["password"])
+
+        if not sid:
+            continue
+
+        for t in pending:
+            time.sleep(1)
+            if post_reply(acc_session, t["id"], sid, account["content"]):
+                replied[t["id"]]["accounts_replied"].append(account["index"])
+                save_replied(replied)
+            time.sleep(0.5)
+
+    save_replied(replied)
+    log.info("Done — %d new match(es)", new_count)
     write_exec_log(new_count)
 
 

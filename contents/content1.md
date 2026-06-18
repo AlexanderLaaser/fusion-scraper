@@ -6,8 +6,6 @@ Ich würde mich riesig freuen, wenn du meinen Code nutzen könntest, um uns dies
 
 G7Q7P
 
-Zusätzlich spenden ich gerne 50 Euro an den Kulturkosmos und würden mich erkenntlich zeigen wenn du Lust auf ein Treffen hast! ☀️
-
 Ich bedanke mich vielmals im Voraus 🫶
 
 Kosmische Grüße

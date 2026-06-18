@@ -1,8 +1,8 @@
 name: Fusion Scraper
 
 on:
-  schedule:
-    - cron: "*/15 * * * *"
+  # Scheduled runs moved to a crontab on the Azure VM — keep this disabled
+  # to avoid two schedulers racing on divergent threads/ state.
   workflow_dispatch:
 
 concurrency:
@@ -38,9 +38,16 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          FORUM_USERNAME: ${{ secrets.FORUM_USERNAME }}
-          FORUM_PASSWORD: ${{ secrets.FORUM_PASSWORD }}
-          REPLY_TEXT: "Hallo! Wir haben Interesse: G7Q7P, 9EHZX. Danke für dein Angebot!"
+          FORUM_USERNAME_1: ${{ secrets.FORUM_USERNAME_1 }}
+          FORUM_PASSWORD_1: ${{ secrets.FORUM_PASSWORD_1 }}
+          FORUM_USERNAME_2: ${{ secrets.FORUM_USERNAME_2 }}
+          FORUM_PASSWORD_2: ${{ secrets.FORUM_PASSWORD_2 }}
+          FORUM_USERNAME_3: ${{ secrets.FORUM_USERNAME_3 }}
+          FORUM_PASSWORD_3: ${{ secrets.FORUM_PASSWORD_3 }}
+          FORUM_USERNAME_4: ${{ secrets.FORUM_USERNAME_4 }}
+          FORUM_PASSWORD_4: ${{ secrets.FORUM_PASSWORD_4 }}
+          FORUM_USERNAME_5: ${{ secrets.FORUM_USERNAME_5 }}
+          FORUM_PASSWORD_5: ${{ secrets.FORUM_PASSWORD_5 }}
           KEYWORDS: "biete,verkaufe,abzugeben,tausche,gebe,gebe ab"
           IGNORE_KEYWORDS: "at.tension,suche"
           MAX_PAGES: "3"
