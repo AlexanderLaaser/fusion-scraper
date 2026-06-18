@@ -694,5 +694,17 @@
     ],
     "replied": true,
     "reason": "replied — matched: biete"
+  },
+  "84206": {
+    "title": "Fusion Insel-Auto-Ticket abzugeben",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84206",
+    "author": "pflunzzz",
+    "timestamp": "2026-06-18 13:50:41",
+    "matched_keywords": [
+      "abzugeben",
+      "gebe"
+    ],
+    "replied": true,
+    "reason": "replied — matched: abzugeben, gebe"
   }
 }
