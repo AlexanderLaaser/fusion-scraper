@@ -661,5 +661,16 @@
     ],
     "replied": false,
     "reason": "post_reply failed — check logs for details"
+  },
+  "84626": {
+    "title": "Biete 1 Ticket an von dir zu kaufen 🌞 Code:VKBRH",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84626",
+    "author": "Mugiwara-san",
+    "timestamp": "2026-06-18 09:06:57",
+    "matched_keywords": [
+      "biete"
+    ],
+    "replied": true,
+    "reason": "replied — matched: biete"
   }
 }
