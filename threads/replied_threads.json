@@ -783,5 +783,16 @@
     ],
     "replied": false,
     "reason": "post_reply failed — check logs for details"
+  },
+  "85036": {
+    "title": "Biete 3 Stück animierte Fusionraketen gegen Ticket",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=85036",
+    "author": "DerSimon",
+    "timestamp": "2026-06-18 22:45:56",
+    "matched_keywords": [
+      "biete"
+    ],
+    "replied": true,
+    "reason": "replied — matched: biete"
   }
 }
