@@ -706,5 +706,27 @@
     ],
     "replied": true,
     "reason": "replied — matched: abzugeben, gebe"
+  },
+  "84822": {
+    "title": "Ticket gesucht [VFQDV] – biete ewige Dankbarkeit und einen freien Platz im Festival-Karma-Konto",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84822",
+    "author": "louis.tondoktor",
+    "timestamp": "2026-06-18 15:01:14",
+    "matched_keywords": [
+      "biete"
+    ],
+    "replied": true,
+    "reason": "replied — matched: biete"
+  },
+  "84810": {
+    "title": "Berliner Pärchen sucht dringend 2 Tickets - bieten MFG",
+    "url": "https://forum.fusion-festival.de/viewtopic.php?t=84810",
+    "author": "folker",
+    "timestamp": "2026-06-18 15:01:35",
+    "matched_keywords": [
+      "biete"
+    ],
+    "replied": true,
+    "reason": "replied — matched: biete"
   }
 }
